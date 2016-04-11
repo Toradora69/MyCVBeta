@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:paddingTop="10dp"
+    android:background="@color/colorAccent1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anime"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/animeViewpager"
+        android:layout_width="match_parent"
+        android:layout_height="320dp">
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:padding="3dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/dot1"
+        android:src="@drawable/circle_selected"/>
+    <ImageView
+        android:padding="3dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/dot2"
+        android:src="@drawable/circle"/>
+    <ImageView
+        android:padding="3dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/dot3"
+        android:src="@drawable/circle"/>
+    <ImageView
+        android:padding="3dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/dot4"
+        android:src="@drawable/circle"/>
+</LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Description: "
+    android:textColor="@color/darkblack"
+    android:textStyle="bold"
+    android:padding="5dp"
+    android:layout_gravity="center_horizontal" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:fillViewport="true"
+        >
+    <TextView
+        android:id="@+id/descriptionId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:textColor="@color/darkblack"
+        android:paddingTop="3dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"/>
+
+    </TableLayout>
+    </ScrollView>
+</LinearLayout>

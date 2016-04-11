@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent3"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Praktikantopgaver hos Greenbyte: "
+        android:textColor="@color/darkblack"
+        android:textSize="20dp" />
+
+    <TextView
+        android:textColor="@color/darkblack"
+        android:id="@+id/firstpartId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleId"
+        android:layout_margin="10dp"
+        android:padding="2dp"
+        android:text="Designede og udarbejdede en Android application for deres eksisterende produkt, Kalenda (Afgangsprojekt)
+Hovedansvarlig for implementeringen af integrationen mellem applicationen og Greenbyte's server, og implementeringen af brugergrænsefladen. Teknologier som blev brugt, Android, Java, JSON, Restful Services og XML.
+" />
+
+    <TextView
+        android:textColor="@color/darkblack"
+        android:id="@+id/secondpartId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstpartId"
+        android:layout_margin="10dp"
+        android:padding="2dp"
+        android:text="Designede og udarbejdede et administrativt brugergrænsefladeværktøj for  Greenbytes Energy Master produkt.
+Hovedansvarling for implementeringen af brugergrænsefladen og kommunikationen mellem database og systemet. Teknologier som blev brugt, Java, JSP, Javascript og Jquery.
+
+" />
+
+    <TextView
+        android:id="@+id/referencesId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="Reference"
+        android:textColor="@color/darkblack"
+        android:textStyle="bold"
+        android:layout_below="@+id/secondpartId"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/namesId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/referencesId"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:padding="2dp"
+        android:text="Thomas Fjællerad, Ulrik Madsen Greenbyte A/S"
+        android:textColor="@color/darkblack"
+        android:textStyle="italic" />
+
+
+    <Button
+
+        android:id="@+id/backbutton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="Back" />
+
+</RelativeLayout>

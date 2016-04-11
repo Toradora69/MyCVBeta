@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My CV</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="personal_profile_text">Med min bachelor i ICT Engineering kan jeg bidrage med diverse programmeringsfærdigheder samt udvikleringsfærdigheder.
+        Jeg elsker at udfordre mine evner og løse opgaver både individuelt og i fællesskab med et smil.
+</string>
+    <string name="personal_profile_text_2">Jeg tager ansvar for det jeg laver, og jeg er ikke bange for at lære nye ting og tag imod kritik.
+        Jeg ser det som en positiv ting og at det kun gør en klogere i livet. </string>
+    <string name="personal_profile_text_3"> Jeg har arbejdserfaringer fra bl.a. Velux A/S, hvor jeg lærte at arbejde i et tempofyldt miljø,
+        hvor samarbejde var altafgørende for at samlebåndet kunne køre uden afbrydelser. </string>
+    <string name="personal_profile_text_4"> Som praktikant hos Greenbyte har jeg arbejdet med forskellige projekter inden for softwareudvikling.
+        Projekterne har mest været front-end baseret, hvilket jeg godt kunne tænke mig at dygtiggøre mig yderligere indenfor. </string>
+
+        <string name="clannad_description"> Tomoya Okazaki is a delinquent who finds life dull and believes he will never amount to anything. Along with his friend Sunohara, he skips school and plans to waste his high school days away.
+
+One day while walking to school, Tomoya passes a young girl muttering quietly to herself. Without warning she exclaims "Anpan!" (a popular Japanese food) which catches Tomoya\'s attention. He soon discovers the girl s name is Nagisa Furukawa and that she exclaims things she likes in order to motivate herself. Nagisa claims they are now friends, but Tomoya walks away passing the encounter off as nothing.
+
+However, Tomoya finds he is noticing Nagisa more and more around school. Eventually he concedes and befriends her. Tomoya learns Nagisa has been held back a year due to a severe illness and that her dream is to revive the school s drama club. Claiming he has nothing better to do, he decides to help her achieve this goal along with the help of four other girls.
+
+As Tomoya spends more time with the girls, he learns more about them and their problems. As he attempts to help each girl overcome her respective obstacle, he begins to realize life isn\'t as dull as he once thought. </string>
+
+    <string name="tora_description"> Ryuuji Takasu is a gentle high school student with a love for housework; but in contrast to his kind nature, he has an intimidating face that often gets him labeled as a delinquent. On the other hand is Taiga Aisaka, a small, doll-like student, who is anything but a cute and fragile girl. Equipped with a wooden katana and feisty personality, Taiga is known throughout the school as the "Palmtop Tiger."
+One day, an embarrassing mistake causes the two students to cross paths. Ryuuji discovers that Taiga actually has a sweet side: she has a crush on the popular vice president, Yuusaku Kitamura, who happens to be his best friend. But things only get crazier when Ryuuji reveals that he has a crush on Minori Kushieda—Taigas best friend! Toradora! is a romantic comedy that follows this odd duo as they embark on a quest to help each other with their respective crushes, forming an unlikely alliance in the process. </string>
+    <string name="fairytail_description">A superficial but kind-hearted celestial mage, Lucy Heartfilia, joins a famous wizarding guild in Magnolia Town called Fairy Tail, where the members use their powers to earn rewards in exchange for fulfilling quests. Here she befriends an impetuous but faithful dragon-slayer wizard, Natsu Dragneel, who is scouring the land for his missing father. The two form a bond with fellow mages Erza Scarlet and Gray Fullbuster, and together they tackle daunting challenges, taking on several powerful allies and foes along the way.
+
+Created by Hiro Mashima, Fairy Tail is an action-packed adventure that follows Lucy and her friends as they learn the value of friendship, forgiveness and family.</string>
+
+    <string name="kyoukai_descrip">The story is set in a fictional world in which normal people and supernatural beings called youmu coexist. These creatures can be found in various shapes and sizes, and even though they are mostly harmless, some of them can be very dangerous and feral.
+
+Things start changing when Akihito Kanbara, a high school student who is half youmu, meets a girl named Mirai Kuriyama, who is a spirit hunter with the rare ability to manipulate her own blood. Mirai is very wary of youmu in general so she attacks Akihito, but gets surprised when she sees that his power is being able to heal quickly, making him almost invulnerable. They soon realize that they will need each other\'s help in order to survive the attacks of dangerous monsters that are coming their way. Will these two very different people be able to work together towards a common goal?</string>
+</resources>

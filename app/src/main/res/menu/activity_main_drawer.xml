@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Curriculum vitae">
+        <menu>
+            <item
+                android:id="@+id/personale__profile_id"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Personale Profile"
+                />
+            <item
+                android:id="@+id/techinal_skills_id"
+                android:icon="@drawable/ic_laptop_black_24dp"
+                android:title="Technical Skills" />
+            <item
+                android:icon="@drawable/ic_group_black_24dp"
+                android:title="Professional Experience"
+                android:id="@+id/professional_id"/>
+            <item
+                android:icon="@drawable/ic_burst_mode_black_24dp"
+                android:title="Diverse Info"
+                android:id="@+id/diverse_id"/>
+        </menu>
+    </item>
+    <item android:title="Anime and Games">
+        <menu>
+            <item
+
+                android:icon="@drawable/ic_sentiment_very_satisfied_black_24dp"
+                android:title="Anime"
+                android:id="@+id/anime_id" />
+            <item
+
+                android:icon="@drawable/ic_videogame_asset_black_24dp"
+                android:title="Games"
+                android:id="@+id/games_id"/>
+        </menu>
+    </item>
+    <item android:title="Media">
+        <menu>
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Facebook"
+                android:id="@+id/facebook_id"/>
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Youtube"
+                android:id="@+id/youtube_id"/>
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="SnapChat"
+                android:id="@+id/snap_id"/>
+        </menu>
+    </item>
+
+</menu>

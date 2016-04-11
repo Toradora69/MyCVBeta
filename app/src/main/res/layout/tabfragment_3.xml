@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:text="Professional Experience"
+        android:textColor="@color/darkblack"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:stretchColumns="1"
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="20dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="20dp"
+                        android:text="2014 - 2016" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="35dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        android:text="2013 - 2014" />/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="29dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="47dp"
+                        android:text="2011 – 2012" />/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="20dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="20dp"
+                        android:text="2010 – 2011" />/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="19dp"
+                        android:text="Greenbyte A/S, Horsens, praktikant som softwareudvikler" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="32dp"
+                        android:paddingTop="14dp"
+                        android:text="VIA University College A/S, Horsens
+ICT - Mentor, Dele erfarings oplevelser vedr. uddannelsen samt praktiske ting i det daglige liv.
+" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="15dp"
+                        android:paddingTop="1dp"
+                        android:text="VELUX A/S Østbirk, Østbirk
+Produktions Medarbejder (Sammensættelse af et  vindue, Ramme afdeling)
+
+" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="1dp"
+                        android:text="VELUX A/S Østbirk, Østbirk
+Produktions Medarbejder (Sammensættelse af et  vindue, Ramme afdeling)
+
+" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/furtherinfoId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For further information, press icons below"
+                android:textColor="@color/darkblack"
+                android:gravity="center"
+                android:textStyle="italic"
+                />
+            <ImageView
+                android:id="@+id/greenbyteInfoId"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/greenbytelogo" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingTop="15dp"
+                android:src="@drawable/veluxlogo" />
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

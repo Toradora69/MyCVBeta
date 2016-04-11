@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/darkblack"
+        android:text="Diverse Information"
+        android:layout_gravity="center"/>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:fillViewport="true"
+        >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/educationcolor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIA University College - Bachelor of ICT Engineering"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/darkblack"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08/2012 – 01/2016, Horsens, Denmark"
+        android:layout_marginLeft="20dp"/>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horsens Gymnasium - STX"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/darkblack"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="07/2008 – 07/2011, Horsens, Denmark"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language Skills"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/educationcolor"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#8226; Dansk"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/darkblack"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#8226; Engelsk"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/darkblack"
+            android:paddingBottom="28dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#8226; Tysk"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/darkblack"
+            android:paddingBottom="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#8226; Vietnamesisk"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/darkblack"
+            android:paddingBottom="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="60dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modersmål"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/darkblack"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flydende, skriftligt og mundligt"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/darkblack"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Begrænset, skriftligt og mundligt"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/darkblack"
+            android:paddingBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Begrænset, mundligt "
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/darkblack"
+            android:paddingBottom="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fritidsinteresser"
+       android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/educationcolor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Udenfor skole og arbejde er computerspil min store passion. Jeg spiller selv forskellige spil, men bruger også meget tid på at læse om spiludvikling og følge med i spilturneringer.  For at holde mig aktiv spiller jeg ugentligt fodbold på motionist niveau. "
+        android:layout_marginLeft="10dp"/>
+
+    </TableLayout>
+    </ScrollView>
+</LinearLayout>

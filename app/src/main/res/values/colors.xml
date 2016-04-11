@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#a11313</color>
+    <color name="colorAccent1">#e6ffdbe8</color>
+    <color name="colorAccent2">#fddebd</color>
+    <color name="colorAccent3">#ffffff</color>
+    <color name="pressed">#a3b4ec</color>
+
+    <color name="darkRed">#7e0909</color>
+    <color name="darkblack">#000000</color>
+    <color name="lightgrey">#d9d1d1</color>
+    <color name="kalenda1">#d0008e96</color>
+    <color name="kalenda2">#008E96</color>
+    <color name="educationcolor">#ab8610</color>
+</resources>
